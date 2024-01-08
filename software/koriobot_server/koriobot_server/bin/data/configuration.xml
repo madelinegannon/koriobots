@@ -1,0 +1,96 @@
+<config>
+    <!--1=1D, 2=2D, 3=3D-->
+    <config_type>2</config_type>
+    <!--Total number of koriobots-->
+    <num_bots>2</num_bots>
+    <!--OSC settings to send/receive messages-->
+    <osc>
+        <receive>
+            <port>55555</port>
+        </receive>
+        <send>
+            <host>127.0.0.1</host>
+            <port>55556</port>
+        </send>
+    </osc>
+    <!--System origin (in world coordinates)-->
+    <origin>
+        <X>-875.000000000</X>
+        <Y>0.000000000</Y>
+        <Z>0.000000000</Z>
+        <QX>0.000000000</QX>
+        <QY>0.000000000</QY>
+        <QZ>0.000000000</QZ>
+        <QW>1.000000000</QW>
+    </origin>
+    <!--Base reference position of each koriobot (in local coordinates)-->
+    <bases>
+        <pos>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+        </pos>
+        <pos>
+            <X>1750</X>
+            <Y>0</Y>
+            <Z>0</Z>
+        </pos>
+    </bases>
+    <!--Motor Indices for 2D Configurations-->
+    <motor_pairs>
+        <pair>
+            <A>0</A>
+            <B>1</B>
+        </pair>
+    </motor_pairs>
+    <!--Cable Drum Configuration-->
+    <cable_drum>
+        <!--1=LEFT-HANDED, 2=RIGHT-HANDED-->
+        <direction>1</direction>
+        <diameter_drum>99.000000000</diameter_drum>
+        <diameter_cable>0.304800000</diameter_cable>
+        <length>30</length>
+        <turns>40</turns>
+    </cable_drum>
+    <!--End Effector Configuration-->
+    <ee>
+        <!--Offset from center of end-effector (in local coordinates)-->
+        <offset>
+            <X>100</X>
+            <Y>0</Y>
+            <Z>0</Z>
+        </offset>
+    </ee>
+    <shutdown>
+        <!--Position beyond bounds to lower koriobots before shutdown (in local coordinates)-->
+        <pos>
+            <X>0</X>
+            <Y>3000</Y>
+            <Z>0</Z>
+        </pos>
+    </shutdown>
+    <!--Centroid, width, height of rectangular motion boundary (in World Coordinates)-->
+    <bounds>
+        <motion>
+            <X>0</X>
+            <Y>-1500.000000000</Y>
+            <W>1750.0</W>
+            <H>2600.0</H>
+        </motion>
+        <safety>
+            <X>0</X>
+            <Y>-1000.0</Y>
+            <W>1000.0</W>
+            <H>1000.0</H>
+        </safety>
+    </bounds>
+    <!--Force Limits-->
+    <limits>
+        <velocity>35.0</velocity>
+        <acceleration>200.0</acceleration>
+        <torque>
+            <MIN>-5</MIN>
+            <MAX>35</MAX>
+        </torque>
+    </limits>
+</config>

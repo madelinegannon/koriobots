@@ -1,0 +1,6 @@
+ofxEasing
+ofxGizmo
+ofxGui
+ofxNetwork
+ofxOsc
+ofxXmlSettings

@@ -2,6 +2,8 @@
 
 [TouchOSC](https://hexler.net/touchosc) is an easy-to-use interface builder that can send and receive [OSC](https://ccrma.stanford.edu/groups/osc/index.html) messages from multiple sources. It's the quickest way to build your own interactive touch interface on your desktop, phone, or tablet — _plus_ it's supported on nearly every operating system: Windows / macOS / Linux / iOS / Android / RasPi.
 
+![](https://github.com/madelinegannon/koriobots/blob/main/assets/touchosc/touchosc_template.png)
+
 We can use TouchOSC to talk to the Koriobot Sever:
 
 ![](https://github.com/madelinegannon/koriobots/blob/main/assets/readme/atonaton_koriobots_storefront.gif)
