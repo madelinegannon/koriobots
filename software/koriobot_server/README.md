@@ -1,6 +1,8 @@
 # Koriobot Server
 
-The koriobot server is a software backend for controlling and coordinating teams of koriobots. You can run the server and communicate over OSC from many third-party applications, like Blender, TouchDesigner, Rhino/Grasshopper, and Unity.
+The koriobot server is a software backend for controlling and coordinating teams of koriobots. You can run the server and communicate over OSC from many third-party applications, like Blender, TouchDesigner, Rhino/Grasshopper, and Unity. 
+
+This README contains information about how to [Setup](https://github.com/madelinegannon/koriobots/tree/main/software/koriobot_server#setup) the sever, how to [Configure](https://github.com/madelinegannon/koriobots/tree/main/software/koriobot_server#configure) your koriobots through `configuration.xml` file, and how to send and receive data using the OSC-based [Sever API](https://github.com/madelinegannon/koriobots/tree/main/software/koriobot_server#server-api).
 
 ![](https://github.com/madelinegannon/koriobots/blob/main/assets/koriobot_server/koriobot_server.png)
 
