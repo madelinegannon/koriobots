@@ -1,0 +1,40 @@
+# Proposed by Robotheca for this repository. Every line is yours to
+# change: check it before merging.
+
+format_version: "1.0"
+name: Koriobots
+summary: A toolkit for cable-driven robots that move objects through the air, built from 3D-printed cable drums on industrial servo motors, made for art installations.
+category: other
+difficulty: intermediate
+license:
+  hardware: MIT
+  software: MIT
+source:
+  repository: https://github.com/madelinegannon/koriobots
+estimated_cost:
+  amount: 972.06
+  currency: USD
+  note: Prices in USD for purchases made in 2023.
+tools:
+  - 3D printer
+files:
+  parts_3d: hardware/cad_files/
+  bom: hardware/BOM.md
+  docs: hardware/README.md
+  images:
+    - assets/readme/atonaton_koriobots_lighting_test.gif
+software:
+  framework: openframeworks
+specs:
+  cable_length: over 6 m
+  payload_1d_g: 340
+  payload_2d_g: 680
+build_steps:
+  - title: Order the parts
+    doc: hardware/BOM.md
+  - title: Print the 3D models
+    doc: hardware/cad_files/
+  - title: Assemble the drum, motor controller, cable and mounts
+    doc: hardware/README.md
+tested:
+  on_hardware: true
